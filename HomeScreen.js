@@ -7,7 +7,7 @@ function HomeScreen({ navigation }) {
         <View style={styles.container}>
             <Text style={styles.text}>Home Screen</Text>
             <Button
-                title="Ir a Tareas"
+                title="Tienda"
                 onPress={
                     () => navigation.navigate('Store')
                 }     
